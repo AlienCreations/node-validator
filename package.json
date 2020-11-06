@@ -1,0 +1,34 @@
+{
+  "name": "@aliencreations/node-validator",
+  "version": "1.0.0",
+  "description": "Validator for BusinessWire node apps.",
+  "main": "index.js",
+  "dependencies": {
+    "@aliencreations/node-error": "*",
+    "jcvd": "^1.0.5",
+    "prettycats": "^0.7.0"
+  },
+  "devDependencies": {
+    "@aliencreations/eslint-config": "^1.x.x",
+    "eslint": "^7.0.0",
+    "jasmine": "^3.4.0",
+    "jasmine-console-reporter": "^3.1.0",
+    "nyc": "^14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aliencreations/node-validator.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "author": "Sean Cannon",
+  "bugs": {
+    "url": "https://github.com/aliencreations/node-validator/issues"
+  },
+  "homepage": "https://github.com/aliencreations/node-validator",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "./node_modules/.bin/nyc --reporter=lcov --reporter=text-summary --exclude=spec ./node_modules/.bin/jasmine"
+  }
+}

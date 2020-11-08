@@ -1,9 +1,8 @@
 'use strict';
 
-const V   = require('o-validator'),
-      prr = require('prettycats');
+const prr = require('prettycats');
 
-const { error, errors } = require('@businesswire/bw-node-error');
+const { errors } = require('@aliencreations/node-error');
 
 const {
   isObjectOf,
@@ -18,27 +17,8 @@ const {
   handleUnsupported : () => errors.validation.UNSUPPORTED()
 });
 
-const _customErrorHandler = identifier => caughtErrors => {
-  const { property, errorCode } = caughtErrors[0],
-        errorTemplate           = errors.validation[errorCode]({
-          messageContext : `${identifier.toUpperCase()} -> ${property}`,
-          debug          : {
-            property,
-            errorCode
-          }
-        });
-
-  throw error(errorTemplate);
-};
-
-const validatePayload = identifier => schema => props => {
-  return V.validateWithErrorHandler(_customErrorHandler(identifier), schema, props);
-};
-
 module.exports = {
-  validatePayload,
   prr,
-  V,
   isObjectOf,
   isPartialObjectOf,
   isArrayOf,

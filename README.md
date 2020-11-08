@@ -62,3 +62,6 @@ try {
 
 ##### 1.0.0
   - Initial commit
+
+##### 1.0.1
+  - Tree-shake

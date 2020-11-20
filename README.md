@@ -65,3 +65,6 @@ try {
 
 ##### 1.0.1
   - Tree-shake
+  
+##### 1.0.2
+  - Update jcvd library

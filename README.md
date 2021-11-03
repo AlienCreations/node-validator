@@ -68,3 +68,6 @@ try {
   
 ##### 1.0.2
   - Update jcvd library
+
+##### 1.0.3
+  - Update prettycats library

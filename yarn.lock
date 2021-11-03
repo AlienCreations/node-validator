@@ -1860,10 +1860,10 @@ prelude-ls@^1.2.1:
   resolved "https://registry.yarnpkg.com/prelude-ls/-/prelude-ls-1.2.1.tgz#debc6489d7a6e6b0e7611888cec880337d316396"
   integrity sha512-vkcDPrRZo1QZLbn5RLGPpg/WmIQ65qoWWhcGKf/b5eplkkarX0m9z8ppCat4mlOqUsWpyNuYgO3VRyrYHSzX5g==
 
-prettycats@^0.7.0:
-  version "0.7.1"
-  resolved "https://registry.yarnpkg.com/prettycats/-/prettycats-0.7.1.tgz#b4a635075e83d5e48168a2aba21cdda687b1d661"
-  integrity sha512-vZPSsAVClgYyId98dvGFxXBjX3vaISkru25itFZvKKjoeJaGDwpAkO3fktJbg8eAV8CVG4IlRJKvuzWcNGL/2A==
+prettycats@^0.7.6:
+  version "0.7.6"
+  resolved "https://registry.yarnpkg.com/prettycats/-/prettycats-0.7.6.tgz#5bac5e09b32206cfdc204395c726792c0bc93a77"
+  integrity sha512-1CC6S7W5QhNQDWklGmO7rAl76PqjKqpzzy658oMrfJmXqv+GoEo+h6BcRDhZpz+VNYAhTuxsxjAXYZGR2ZgSOg==
   dependencies:
     ramda "^0.27.x"
 

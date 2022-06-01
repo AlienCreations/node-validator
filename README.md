@@ -1,5 +1,5 @@
 # node-validator
-Validator for Alien Creations node apps.
+Validator for Alien Creations node apps
 
 ## Install
 
@@ -71,3 +71,6 @@ try {
 
 ##### 1.0.3
   - Update prettycats library
+
+##### 1.0.4
+  - Update README

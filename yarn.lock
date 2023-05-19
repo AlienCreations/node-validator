@@ -1860,12 +1860,12 @@ prelude-ls@^1.2.1:
   resolved "https://registry.yarnpkg.com/prelude-ls/-/prelude-ls-1.2.1.tgz#debc6489d7a6e6b0e7611888cec880337d316396"
   integrity sha512-vkcDPrRZo1QZLbn5RLGPpg/WmIQ65qoWWhcGKf/b5eplkkarX0m9z8ppCat4mlOqUsWpyNuYgO3VRyrYHSzX5g==
 
-prettycats@^0.7.6:
-  version "0.7.6"
-  resolved "https://registry.yarnpkg.com/prettycats/-/prettycats-0.7.6.tgz#5bac5e09b32206cfdc204395c726792c0bc93a77"
-  integrity sha512-1CC6S7W5QhNQDWklGmO7rAl76PqjKqpzzy658oMrfJmXqv+GoEo+h6BcRDhZpz+VNYAhTuxsxjAXYZGR2ZgSOg==
+prettycats@^0.7.9:
+  version "0.7.9"
+  resolved "https://registry.yarnpkg.com/prettycats/-/prettycats-0.7.9.tgz#8a00fd8634acec3e92cf7c69b845206594e754ac"
+  integrity sha512-g09bsN9ZEMjdKzoKmmu5ORn2xFgGTHtYjatk09WCTxMgEE5kEumh+OYCQuGXqp0Pjw14NuO0RVlxolc1j/xKRA==
   dependencies:
-    ramda "^0.27.x"
+    ramda "^0.29.x"
 
 progress@^2.0.0:
   version "2.0.3"
@@ -1896,10 +1896,10 @@ ramda@0.25.0:
   resolved "https://registry.yarnpkg.com/ramda/-/ramda-0.25.0.tgz#8fdf68231cffa90bc2f9460390a0cb74a29b29a9"
   integrity sha512-GXpfrYVPwx3K7RQ6aYT8KPS8XViSXUVJT1ONhoKPE9VAleW42YE+U+8VEyGWt41EnEQW7gwecYJriTI0pKoecQ==
 
-ramda@^0.27.x:
-  version "0.27.1"
-  resolved "https://registry.yarnpkg.com/ramda/-/ramda-0.27.1.tgz#66fc2df3ef873874ffc2da6aa8984658abacf5c9"
-  integrity sha512-PgIdVpn5y5Yns8vqb8FzBUEYn98V3xcPgawAkkgj0YJ0qDsnHCiNmZYfOGMgOvoB0eWFLpYbhxUR3mxfDIMvpw==
+ramda@^0.29.x:
+  version "0.29.0"
+  resolved "https://registry.yarnpkg.com/ramda/-/ramda-0.29.0.tgz#fbbb67a740a754c8a4cbb41e2a6e0eb8507f55fb"
+  integrity sha512-BBea6L67bYLtdbOqfp8f58fPMqEwx0doL+pAi8TZyp2YWz8R9G8z9x75CZI8W+ftqhFHCpEX2cRnUUXK130iKA==
 
 react-is@^16.8.1:
   version "16.13.1"

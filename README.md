@@ -67,10 +67,13 @@ try {
   - Tree-shake
   
 ##### 1.0.2
-  - Update jcvd library
+  - Update [jcvd](https://github.com/seancannon/jcvd) library
 
 ##### 1.0.3
-  - Update prettycats library
+  - Update [prettycats](https://github.com/seancannon/prettycats) library
 
 ##### 1.0.4
   - Update README
+
+##### 1.0.5
+  - Update [prettycats](https://github.com/seancannon/prettycats) library

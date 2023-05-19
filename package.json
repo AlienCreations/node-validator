@@ -1,12 +1,12 @@
 {
   "name": "@aliencreations/node-validator",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Validator for BusinessWire node apps.",
   "main": "index.js",
   "dependencies": {
     "@aliencreations/node-error": "*",
     "jcvd": "^1.1.0",
-    "prettycats": "^0.7.6"
+    "prettycats": "^0.7.9"
   },
   "devDependencies": {
     "@aliencreations/eslint-config": "^1.x.x",

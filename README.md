@@ -77,3 +77,6 @@ try {
 
 ##### 1.0.5
   - Update [prettycats](https://github.com/seancannon/prettycats) library
+
+##### 1.0.6
+- Update README

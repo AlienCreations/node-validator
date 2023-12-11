@@ -1,7 +1,7 @@
 {
   "name": "@aliencreations/node-validator",
-  "version": "1.0.5",
-  "description": "Validator for BusinessWire node apps.",
+  "version": "1.0.6",
+  "description": "Validator for Alien Creations node apps.",
   "main": "index.js",
   "dependencies": {
     "@aliencreations/node-error": "*",
